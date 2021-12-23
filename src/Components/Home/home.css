@@ -1,0 +1,46 @@
+.home-main {
+    width: 100%;
+    height: 80vh;
+    background-color: #fff8f5;
+}
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.first-col {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-header {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: "Exo", sans-serif;
+}
+.second-col {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 450px) {
+    .home-main {
+        width: 100%;
+        height: 160vh;
+        background-color: #fff8f5;
+    }
+    .home-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
