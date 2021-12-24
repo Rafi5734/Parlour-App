@@ -1,7 +1,10 @@
 import React from "react";
-import { Card, Container, Button } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 import "./allServices.css";
 import firstImg from "../../Group 1372.png";
+import MouthImg from "../../Mouth.png";
+import FaceImg from "../../face.png";
+import Button from "@mui/material/Button";
 const AllServices = () => {
     return (
         <Container fluid>
@@ -20,7 +23,7 @@ const AllServices = () => {
                 <div className="main-services">
                     <div className="all-services">
                         <div>
-                            <Card style={{ width: "18rem" }}>
+                            <Card style={{ width: "22rem" }}>
                                 <img
                                     src={firstImg}
                                     className="img-fluid"
@@ -32,58 +35,117 @@ const AllServices = () => {
                                     }}
                                 />
                                 <Card.Body>
-                                    <Card.Title style={{ fontWeight: "bold" }}>
+                                    <Card.Title
+                                        style={{ fontWeight: "bold" }}
+                                        className="text-center"
+                                    >
                                         Anti Age Face Treatment
                                     </Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the
-                                        card title and make up the bulk of the
-                                        card's content.
+                                    <p
+                                        className="text-center"
+                                        style={{
+                                            color: "#f63e7b",
+                                            fontWeight: "bold",
+                                        }}
+                                    >
+                                        $199
+                                    </p>
+                                    <Card.Text className="lead">
+                                        We craft stunning and amazing web UI
+                                        using a well dramatic UX to fit your
+                                        product.
                                     </Card.Text>
-                                    <Button variant="primary">
-                                        Go somewhere
+                                    <Button
+                                        color="secondary"
+                                        variant="outlined"
+                                    >
+                                        Know More
                                     </Button>
                                 </Card.Body>
                             </Card>
                         </div>
                         <div>
-                            <Card style={{ width: "18rem" }}>
+                            <Card style={{ width: "22rem" }}>
                                 <Card.Img
                                     variant="top"
-                                    src="holder.js/100px180"
+                                    src={MouthImg}
+                                    className="img-fluid"
+                                    style={{
+                                        width: "7rem",
+                                        marginLeft: "auto",
+                                        marginRight: "auto",
+                                        marginTop: "30px",
+                                    }}
                                 />
                                 <Card.Body>
-                                    <Card.Title style={{ fontWeight: "bold" }}>
+                                    <Card.Title
+                                        style={{ fontWeight: "bold" }}
+                                        className="text-center"
+                                    >
                                         Hair Color & Styling
                                     </Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the
-                                        card title and make up the bulk of the
-                                        card's content.
+                                    <p
+                                        className="text-center"
+                                        style={{
+                                            color: "#f63e7b",
+                                            fontWeight: "bold",
+                                        }}
+                                    >
+                                        $99
+                                    </p>
+                                    <Card.Text className="lead">
+                                        Amazing flyers, social media posts and
+                                        brand representations that would make
+                                        your brand stand out.
                                     </Card.Text>
-                                    <Button variant="primary">
-                                        Go somewhere
+                                    <Button
+                                        color="secondary"
+                                        variant="outlined"
+                                    >
+                                        Know More
                                     </Button>
                                 </Card.Body>
                             </Card>
                         </div>
                         <div>
-                            <Card style={{ width: "18rem" }}>
+                            <Card style={{ width: "22rem" }}>
                                 <Card.Img
                                     variant="top"
-                                    src="holder.js/100px180"
+                                    src={FaceImg}
+                                    className="img-fluid"
+                                    style={{
+                                        width: "7rem",
+                                        marginLeft: "auto",
+                                        marginRight: "auto",
+                                        marginTop: "30px",
+                                    }}
                                 />
                                 <Card.Body>
-                                    <Card.Title style={{ fontWeight: "bold" }}>
+                                    <Card.Title
+                                        style={{ fontWeight: "bold" }}
+                                        className="text-center"
+                                    >
                                         Skin Care Treatment
                                     </Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the
-                                        card title and make up the bulk of the
-                                        card's content.
+                                    <p
+                                        className="text-center"
+                                        style={{
+                                            color: "#f63e7b",
+                                            fontWeight: "bold",
+                                        }}
+                                    >
+                                        $299
+                                    </p>
+                                    <Card.Text className="lead">
+                                        With well written codes, we build
+                                        amazing apps for all platforms, mobile
+                                        and web apps in general.
                                     </Card.Text>
-                                    <Button variant="primary">
-                                        Go somewhere
+                                    <Button
+                                        color="secondary"
+                                        variant="outlined"
+                                    >
+                                        Know More
                                     </Button>
                                 </Card.Body>
                             </Card>
