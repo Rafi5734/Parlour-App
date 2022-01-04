@@ -13,15 +13,19 @@ const AllServices = () => {
             .then((data) => {
                 if (handleBtn === false) {
                     const slicingData = data.slice(0, 3);
-                    setService(slicingData);
-                } else {
-                    setTrueService(data);
+                    return setService(slicingData);
                 }
             });
     }, []);
-    console.log(trueService);
+    // console.log(trueService);
     const handleExploreMore = () => {
         setHandleBtn(true);
+        fetch("./services.json")
+            .then((res) => res.json())
+            .then((data) => {
+                setTrueService(data);
+                // console.log(trueService);
+            });
     };
     return (
         <Container fluid>
@@ -48,7 +52,13 @@ const AllServices = () => {
                             className="all-services-cards ms-auto mt-5 mb-5"
                         >
                             {handleBtn ? (
-                                <div>
+                                <div
+                                    style={{
+                                        display: "grid",
+                                        gridTemplateColumns: "repeat(3, 1fr)",
+                                        gridGap: "50px",
+                                    }}
+                                >
                                     {trueService.map((service) => (
                                         <Card
                                             style={{ width: "22rem" }}
@@ -96,113 +106,102 @@ const AllServices = () => {
                                             </Card.Body>
                                         </Card>
                                     ))}
+                                    {/* <Button
+                                        variant="outlined"
+                                        color="error"
+                                        style={{
+                                            marginLeft: "45%",
+                                            marginBottom: "50px",
+                                        }}
+                                        onClick={handleExploreMore}
+                                    >
+                                        Explore More2
+                                    </Button> */}
                                 </div>
                             ) : (
-                                <div>
-                                    {service.map((t) => (
-                                        <Card
-                                            style={{ width: "22rem" }}
-                                            key={t.title}
-                                            className="a-card"
-                                        >
-                                            <img
-                                                src={t.image}
-                                                className="img-fluid"
-                                                style={{
-                                                    width: "7rem",
-                                                    marginLeft: "auto",
-                                                    marginRight: "auto",
-                                                    marginTop: "30px",
-                                                }}
-                                            />
-                                            <Card.Body>
-                                                <Card.Title
-                                                    style={{
-                                                        fontWeight: "bold",
-                                                    }}
-                                                    className="text-center"
-                                                >
-                                                    {t.title}
-                                                </Card.Title>
-                                                <p
-                                                    className="text-center"
-                                                    style={{
-                                                        color: "#f63e7b",
-                                                        fontWeight: "bold",
-                                                    }}
-                                                >
-                                                    $<span>{t.price}</span>
-                                                </p>
-                                                <Card.Text className="lead">
-                                                    {t.description}
-                                                </Card.Text>
-                                                <Button
-                                                    color="secondary"
-                                                    variant="outlined"
-                                                >
-                                                    Know More
-                                                </Button>
-                                            </Card.Body>
-                                        </Card>
-                                    ))}
-                                </div>
-                            )}
-                            {/* {service.map((service) => (
-                                <Card
-                                    style={{ width: "22rem" }}
-                                    key={service.title}
-                                    className="a-card"
-                                >
-                                    <img
-                                        src={service.image}
-                                        className="img-fluid"
+                                <>
+                                    <div
                                         style={{
-                                            width: "7rem",
-                                            marginLeft: "auto",
-                                            marginRight: "auto",
-                                            marginTop: "30px",
+                                            display: "grid",
+                                            gridTemplateColumns:
+                                                "repeat(3, 1fr)",
+                                            gridGap: "50px",
                                         }}
-                                    />
-                                    <Card.Body>
-                                        <Card.Title
-                                            style={{ fontWeight: "bold" }}
-                                            className="text-center"
-                                        >
-                                            {service.title}
-                                        </Card.Title>
-                                        <p
-                                            className="text-center"
-                                            style={{
-                                                color: "#f63e7b",
-                                                fontWeight: "bold",
-                                            }}
-                                        >
-                                            $<span>{service.price}</span>
-                                        </p>
-                                        <Card.Text className="lead">
-                                            {service.description}
-                                        </Card.Text>
+                                    >
+                                        {service.map((t) => (
+                                            <Card
+                                                style={{ width: "22rem" }}
+                                                key={t.title}
+                                                className="a-card"
+                                            >
+                                                <img
+                                                    src={t.image}
+                                                    className="img-fluid"
+                                                    style={{
+                                                        width: "7rem",
+                                                        marginLeft: "auto",
+                                                        marginRight: "auto",
+                                                        marginTop: "30px",
+                                                    }}
+                                                />
+                                                <Card.Body>
+                                                    <Card.Title
+                                                        style={{
+                                                            fontWeight: "bold",
+                                                        }}
+                                                        className="text-center"
+                                                    >
+                                                        {t.title}
+                                                    </Card.Title>
+                                                    <p
+                                                        className="text-center"
+                                                        style={{
+                                                            color: "#f63e7b",
+                                                            fontWeight: "bold",
+                                                        }}
+                                                    >
+                                                        $<span>{t.price}</span>
+                                                    </p>
+                                                    <Card.Text className="lead">
+                                                        {t.description}
+                                                    </Card.Text>
+                                                    <Button
+                                                        color="secondary"
+                                                        variant="outlined"
+                                                    >
+                                                        Know More
+                                                    </Button>
+                                                </Card.Body>
+                                            </Card>
+                                        ))}
                                         <Button
-                                            color="secondary"
                                             variant="outlined"
+                                            color="error"
+                                            style={{
+                                                marginBottom: "50px",
+                                                position: "relative",
+                                                left: "0px",
+                                            }}
+                                            onClick={handleExploreMore}
                                         >
-                                            Know More
+                                            Explore More
                                         </Button>
-                                    </Card.Body>
-                                </Card>
-                            ))} */}
+                                    </div>
+                                </>
+                            )}
+
                             {/*  */}
                         </div>
                     </div>
                 </div>
-                <Button
+                {/* <Button
                     variant="outlined"
                     color="error"
                     style={{ marginLeft: "45%", marginBottom: "50px" }}
                     onClick={handleExploreMore}
                 >
                     Explore More
-                </Button>
+                </Button> */}
             </Container>
         </Container>
     );
