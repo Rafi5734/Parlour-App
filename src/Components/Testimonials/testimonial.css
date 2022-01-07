@@ -1,0 +1,10 @@
+.test-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.test-img {
+    width: 70px;
+    margin-right: 30px;
+}
