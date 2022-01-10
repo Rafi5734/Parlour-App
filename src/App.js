@@ -16,6 +16,9 @@ import {
 import Icon from "./Components/Images/Group 33092.png";
 import SendIcon from "@mui/icons-material/Send";
 import Button from "@mui/material/Button";
+import Prices from "./Components/Prices/Prices";
+import NewsBlogs from "./Components/News-Blogs/NewsBlogs";
+import TermsConditions from "./Components/TermsConditions/TermsConditions";
 
 function App() {
     return (
@@ -44,6 +47,9 @@ function App() {
                                 <Link to="/team" className="links me-5">
                                     Our Team
                                 </Link>
+                                <Link to="/price" className="links me-5">
+                                    prices
+                                </Link>
                                 <Link to="/contact" className="links me-5">
                                     Contact Us
                                 </Link>
@@ -67,6 +73,9 @@ function App() {
                     <Route path="/ourportfolio" element={<OurPortfolio />} />
                     <Route path="/team" element={<Team />} />
                     <Route path="/contact" element={<ContactUs />} />
+                    <Route path="/price" element={<Prices />} />
+                    <Route path="/newsblogs" element={<NewsBlogs />} />
+                    <Route path="/terms" element={<TermsConditions />} />
                     {/* <Route path="" element={<ContactUs />} /> */}
                 </Routes>
             </BrowserRouter>
