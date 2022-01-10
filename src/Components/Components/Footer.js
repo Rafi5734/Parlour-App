@@ -36,7 +36,7 @@ const Footer = () => {
                 <div className="footer-links">
                     <h4 className="fw-bold text-center mb-4">Company</h4>
                     <Link to="/ourportfolio" className="link">
-                        <p className="text-center lead ">About Us</p>
+                        <p className="text-center lead ">Our Portfolio</p>
                     </Link>
                     <Link to="/team" className="link">
                         <p className="text-center lead link">Our Team</p>
