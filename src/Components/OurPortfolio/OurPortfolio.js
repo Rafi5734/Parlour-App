@@ -199,7 +199,9 @@ const OurPortfolio = () => {
                     <SvgButton className="lead me-4">Highlights</SvgButton>
                 </div>
                 <div className="mother-gallery">
-                    <div className="gallery-main mt-5 mb-5"></div>
+                    <div className="gallery-main mt-5 mb-5">
+                        <div></div>
+                    </div>
                 </div>
             </Container>
         </>
