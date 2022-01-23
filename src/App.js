@@ -24,7 +24,7 @@ function App() {
     return (
         <div className="App">
             <BrowserRouter>
-                <Navbar bg="light" expand="lg" sticky="top">
+                <Navbar className="navbar-main" expand="lg" sticky="top">
                     <Container>
                         <Navbar.Brand href="#">
                             <Link to="/home">

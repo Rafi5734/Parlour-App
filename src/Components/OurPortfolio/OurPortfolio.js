@@ -5,8 +5,12 @@ import PropTypes from "prop-types";
 import ButtonUnstyled, {
     buttonUnstyledClasses,
 } from "@mui/base/ButtonUnstyled";
-
-import Button from "@mui/material/Button";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
+import { Button, CardActionArea, CardActions } from "@mui/material";
+// import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
 import Stack from "@mui/material/Stack";
 import { purple } from "@mui/material/colors";
@@ -200,7 +204,97 @@ const OurPortfolio = () => {
                 </div>
                 <div className="mother-gallery">
                     <div className="gallery-main mt-5 mb-5">
-                        <div></div>
+                        <div className="gallery-second">
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic1.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Body Treatments
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            The daily grind can cause us to
+                                            carry tension in our shoulders,
+                                            necks, backs — even our legs! An
+                                            authentic Thai massage can release
+                                            this tension, as your massage
+                                            therapist stretches, kneads, and
+                                            unlocks your muscles. Micro
+                                            treatments such as foot reflexology
+                                            also signal your body to release
+                                            itself from the stress inflicted by
+                                            your mind.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic1.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Body Treatments
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            The daily grind can cause us to
+                                            carry tension in our shoulders,
+                                            necks, backs — even our legs! An
+                                            authentic Thai massage can release
+                                            this tension, as your massage
+                                            therapist stretches, kneads, and
+                                            unlocks your muscles. Micro
+                                            treatments such as foot reflexology
+                                            also signal your body to release
+                                            itself from the stress inflicted by
+                                            your mind.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+                        </div>
                     </div>
                 </div>
             </Container>
