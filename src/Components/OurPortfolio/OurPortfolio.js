@@ -255,7 +255,7 @@ const OurPortfolio = () => {
                                     <CardMedia
                                         component="img"
                                         height="450"
-                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic1.jpg"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic2.jpg"
                                         alt="green iguana"
                                     />
                                     <CardContent>
@@ -264,23 +264,180 @@ const OurPortfolio = () => {
                                             variant="h5"
                                             component="div"
                                         >
-                                            Body Treatments
+                                            Aromatherapy
                                         </Typography>
                                         <Typography
                                             variant="body2"
                                             color="text.secondary"
                                         >
-                                            The daily grind can cause us to
-                                            carry tension in our shoulders,
-                                            necks, backs — even our legs! An
-                                            authentic Thai massage can release
-                                            this tension, as your massage
-                                            therapist stretches, kneads, and
-                                            unlocks your muscles. Micro
-                                            treatments such as foot reflexology
-                                            also signal your body to release
-                                            itself from the stress inflicted by
-                                            your mind.
+                                            Aromatherapy is based on the usage
+                                            of aromatic materials, including
+                                            essential oils, and other aroma
+                                            compounds, with claims for improving
+                                            psychological or physical
+                                            well-being.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic3.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Beauty & Clinic Service
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            This pampering facial start with hot
+                                            towel to open up the pores and
+                                            relaxing face and neck massage.
+                                            After deep pore cleansing a dead sea
+                                            mask is applied. Also includes
+                                            eyebrow trim and waxing.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic6.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Massages
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            Massage is the manipulation of the
+                                            body's soft tissues. Massage
+                                            techniques are commonly applied with
+                                            hands, fingers, elbows, knees,
+                                            forearms, feet, or a device. The
+                                            purpose of massage is generally for
+                                            the treatment of body stress or
+                                            pain.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic4.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Hair Makeup
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            Hair makeup is a temporary hair
+                                            color that washes out in just one
+                                            shampoo. Yes, you read that right.
+                                            Even better, hair makeup colors can
+                                            be mixed together to create your own
+                                            custom shade, so the options are
+                                            virtually endless.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic5.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Organic Kulk Service
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            Hair makeup is a temporary hair
+                                            color that washes out in just one
+                                            shampoo. Yes, you read that right.
+                                            Even better, hair makeup colors can
+                                            be mixed together to create your own
+                                            custom shade, so the options are
+                                            virtually endless.
                                         </Typography>
                                     </CardContent>
                                 </CardActionArea>
