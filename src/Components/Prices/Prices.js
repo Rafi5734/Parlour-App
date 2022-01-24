@@ -1,9 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import "./prices.css";
 const Prices = () => {
     return (
         <div>
-            <h1>I am from pricing.</h1>
+            <Container fluid className="pricing-main">
+                <h1 className="pricing-title">Pricing</h1>
+            </Container>
         </div>
     );
 };
