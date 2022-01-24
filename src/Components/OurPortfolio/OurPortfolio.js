@@ -14,6 +14,7 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Stack from "@mui/material/Stack";
 import { purple } from "@mui/material/colors";
+import Footer from "../Components/Footer";
 
 const ColorButton = styled(Button)(({ theme }) => ({
     color: theme.palette.getContrastText(purple[500]),
@@ -451,10 +452,377 @@ const OurPortfolio = () => {
                                     </Button>
                                 </CardActions>
                             </Card>
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic7.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Lux Cosmetic
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            While the Lux woman aspires to
+                                            express her beauty and femininity as
+                                            she wishes without the need to
+                                            self-edit, this is far from the
+                                            reality she faces every day.
+                                            Instead, she is constantly bombarded
+                                            with judgements that define how she
+                                            should live and behave. Everyone has
+                                            a say in how she should and should
+                                            not express herself.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic8.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Body Treatments
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            Simply put, a body treatment is like
+                                            a facial for your whole body. The
+                                            basic idea is to cleanse, exfoliate,
+                                            and hydrate all of you, not just the
+                                            skin that's on your face. By doing
+                                            this, your whole body will feel
+                                            softer, smoother, and much more
+                                            relaxed than before.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic2.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Hair Makeup
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            Hair makeup is a temporary hair
+                                            color that washes out in just one
+                                            shampoo. Yes, you read that right.
+                                            ... Even better, hair makeup colors
+                                            can be mixed together to create your
+                                            own custom shade, so the options are
+                                            virtually endless.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic9.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Aromatherapy
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            Aromatherapy is based on the usage
+                                            of aromatic materials, including
+                                            essential oils, and other aroma
+                                            compounds, with claims for improving
+                                            psychological or physical
+                                            well-being.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic10.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Beauty & Clinic Service
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            There has long been an argument
+                                            against non-medically qualified
+                                            people injecting aesthetic
+                                            treatments when they cannot
+                                            diagnose, prescribe or manage what
+                                            can be severe complications. They
+                                            have no legal obligation to care
+                                            after a person finishes a treatment.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic15.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Aromatherapy
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            Aromatherapy is based on the usage
+                                            of aromatic materials, including
+                                            essential oils, and other aroma
+                                            compounds, with claims for improving
+                                            psychological or physical
+                                            well-being.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic14.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Body Treatments
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            Simply put, a body treatment is like
+                                            a facial for your whole body. The
+                                            basic idea is to cleanse, exfoliate,
+                                            and hydrate all of you, not just the
+                                            skin that's on your face. By doing
+                                            this, your whole body will feel
+                                            softer, smoother, and much more
+                                            relaxed than before.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic13.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Lux Cosmetic
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            Do you wish for your eyelashes to be
+                                            long and beautiful, and not to
+                                            succumb to artificial trends? The
+                                            role of the eyelashes is not only
+                                            aesthetic, but a woman’s eyelashes
+                                            are important mostly because of
+                                            this.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+                            <Card sx={{ maxWidth: 1000 }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="450"
+                                        image="https://lavi.dexignzone.com/xhtml/images/gallery/pic8.jpg"
+                                        alt="green iguana"
+                                    />
+                                    <CardContent>
+                                        <Typography
+                                            gutterBottom
+                                            variant="h5"
+                                            component="div"
+                                        >
+                                            Beauty & Clinic Service
+                                        </Typography>
+                                        <Typography
+                                            variant="body2"
+                                            color="text.secondary"
+                                        >
+                                            Our services include Laser Hair
+                                            removal, IPL Skin rejuvenation ,
+                                            Skin tightening, Image Skincare,
+                                            Ultraceuticals and Obagi Medicial
+                                            ski peels, Guinot Facials and
+                                            Dermalogica facials. Our advanced
+                                            skincare products include Obagi,
+                                            Ultraceuticals, Guinot, Image
+                                            Skincare and Dermalogica.
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Button
+                                        size="small"
+                                        color="primary"
+                                        variant="outlined"
+                                    >
+                                        Know More
+                                    </Button>
+                                </CardActions>
+                            </Card>
                         </div>
                     </div>
                 </div>
             </Container>
+            <Footer></Footer>
         </>
     );
 };
