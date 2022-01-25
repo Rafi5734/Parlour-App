@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Badge, Container } from "react-bootstrap";
 import "./prices.css";
 import Footer from "../Components/Footer";
 const Prices = () => {
@@ -19,7 +19,7 @@ const Prices = () => {
                             <ul className="price">
                                 <li className="header">Starter</li>
                                 <li className="grey fw-bold">$ 19/MONTH</li>
-                                <li className="lead">10GB Storage</li>
+                                <li className="lead">Hair Style</li>
                                 <li
                                     style={{ backgroundColor: "#eeeeee" }}
                                     className="lead"
@@ -47,11 +47,14 @@ const Prices = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="columns">
+                        <h4>
+                            <Badge bg="secondary">Recommended</Badge>
+                        </h4>
+                        <div className="columns" style={{ marginTop: "-35px" }}>
                             <ul className="price">
-                                <li className="header">Starter</li>
-                                <li className="grey-m fw-bold">$ 19/MONTH</li>
-                                <li className="lead">10GB Storage</li>
+                                <li className="header">Basic</li>
+                                <li className="grey-m fw-bold">$ 30/MONTH</li>
+                                <li className="lead">Hair Style</li>
                                 <li
                                     style={{ backgroundColor: "#eeeeee" }}
                                     className="lead"
@@ -79,11 +82,11 @@ const Prices = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="columns">
+                        <div className="columns" style={{ marginTop: "-38px" }}>
                             <ul className="price">
-                                <li className="header">Starter</li>
-                                <li className="grey fw-bold">$ 19/MONTH</li>
-                                <li className="lead">10GB Storage</li>
+                                <li className="header">Premium</li>
+                                <li className="grey fw-bold">$ 60/MONTH</li>
+                                <li className="lead">Hair Style</li>
                                 <li
                                     style={{ backgroundColor: "#eeeeee" }}
                                     className="lead"
