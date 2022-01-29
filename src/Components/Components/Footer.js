@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Logo from "../Images/Group 33092.png";
 const Footer = () => {
     return (
         <div
@@ -18,7 +19,21 @@ const Footer = () => {
                     position: "relative",
                     top: "30px",
                 }}
+                className="mother-footer"
             >
+                {/* 1 */}
+                <div className="organized-logo">
+                    <img src={Logo}></img>
+                    <div>
+                        <div className="social-icons">
+                            <i className="fab fa-facebook-square"></i>
+                            <i className="fab fa-instagram"></i>
+                            <i className="fab fa-linkedin"></i>
+                            <i className="fab fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+                {/* 2 */}
                 <div
                     style={{
                         display: "flex",
@@ -33,6 +48,7 @@ const Footer = () => {
                         Bangladesh.
                     </p>
                 </div>
+                {/* 3 */}
                 <div className="footer-links">
                     <h4 className="fw-bold text-center mb-4">Company</h4>
                     <Link to="/ourportfolio" className="link">
@@ -53,6 +69,7 @@ const Footer = () => {
                         </p>
                     </Link>
                 </div>
+                {/* 4 */}
                 <div>
                     <h4 className="fw-bold text-center mb-4">Quick Links</h4>
                     <p className="text-center lead">Quick Links</p>
@@ -60,21 +77,6 @@ const Footer = () => {
                     <p className="text-center lead">Sales</p>
                     <p className="text-center lead">Contact</p>
                     <p className="text-center lead">Our Blog</p>
-                </div>
-                <div>
-                    <h4 className="fw-bold text-center mb-4">About Us</h4>
-                    <p className="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Voluptatem voluptates dicta minus iste. Aperiam quis
-                        sed, omnis, enim maxime impedit quae velit asperiores
-                        facilis fuga dolorem qui, vitae amet dolore.
-                    </p>
-                    <div className="social-icons">
-                        <i className="fab fa-facebook-square"></i>
-                        <i className="fab fa-instagram"></i>
-                        <i className="fab fa-linkedin"></i>
-                        <i className="fab fa-youtube"></i>
-                    </div>
                 </div>
             </Container>
         </div>

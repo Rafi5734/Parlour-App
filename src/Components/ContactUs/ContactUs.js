@@ -2,10 +2,12 @@ import React from "react";
 import { Container, Form } from "react-bootstrap";
 import "./contactUs.css";
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
-
+import Footer from "../Components/Footer";
 const containerStyle = {
-    width: "400px",
+    width: "100%",
     height: "400px",
+    marginTop: "50px",
+    marginBottom: "50px",
 };
 
 const center = {
@@ -90,7 +92,7 @@ const ContactUs = () => {
                     </Container>
                 </Container>
             </Container>
-            <Container>
+            <Container className="map-main">
                 <LoadScript googleMapsApiKey="AIzaSyD8dMPRyH5KBmH_KfiS8zsu1DaeOtkZFgc">
                     <GoogleMap
                         mapContainerStyle={containerStyle}
@@ -99,8 +101,42 @@ const ContactUs = () => {
                     ></GoogleMap>
                 </LoadScript>
             </Container>
-
-            <Container></Container>
+            <Container fluid className="center">
+                <Container>
+                    <div className="main-center">
+                        <div>
+                            <h1 className="mb-5">
+                                WELLNESS CENTER LOS ANGELES
+                            </h1>
+                            <p className="lead">Mon – Wed 10:00 – 21:00</p>
+                            <p className="lead">Thu & Fri 12:00 – 20:00</p>
+                            <p className="lead mb-5">Weekend 12:00 – 21:00</p>
+                            <p className="lead address">
+                                1525 Boardway Los Angels. CA 90015
+                            </p>
+                        </div>
+                        <div>
+                            <h1 className="mb-5">WELLNESS CENTER NEW JERSEY</h1>
+                            <p className="lead">Mon – Wed 10:00 – 21:00</p>
+                            <p className="lead">Thu & Fri 12:00 – 20:00</p>
+                            <p className="lead mb-5">Weekend 12:00 – 21:00</p>
+                            <p className="lead address">
+                                401 - 827 Scott Rd Brielle. NJ 08730.
+                            </p>
+                        </div>
+                        <div>
+                            <h1 className="mb-5">WELLNESS CENTER CHICAGO</h1>
+                            <p className="lead">Mon – Wed 10:00 – 21:00</p>
+                            <p className="lead">Thu & Fri 12:00 – 20:00</p>
+                            <p className="lead mb-5">Weekend 12:00 – 21:00</p>
+                            <p className="lead address">
+                                230 W Monreo St Chicago. IL 60606
+                            </p>
+                        </div>
+                    </div>
+                </Container>
+            </Container>
+            <Footer></Footer>
         </>
     );
 };

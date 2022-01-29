@@ -30,9 +30,7 @@ const ContactForm = () => {
                     <div
                         className="contact-message"
                         style={{
-                            marginTop: "150px",
-                            // display: "grid",
-                            // gridTemplateColumns: "repeat(2, 1fr)",
+                            marginTop: "100px",
                         }}
                     >
                         <form onSubmit={handleSubmit(onSubmit)}>
@@ -115,17 +113,15 @@ const ContactForm = () => {
                             {errors.exampleRequired && (
                                 <span>This field is required</span>
                             )}
-                            <div>
-                                <input
-                                    type="submit"
-                                    className="submit-btn lead"
-                                ></input>
+                            <div class="btn-div">
+                                <button type="submit" className="glow-on-hover">
+                                    Send
+                                </button>
                             </div>
                         </form>
                     </div>
                 </Container>
             </div>
-
             <Footer></Footer>
         </>
     );
