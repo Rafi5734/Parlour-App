@@ -85,7 +85,8 @@ const ContactUs = () => {
                                 </label>
                             </Form.Floating>
                         </>
-                        <button className="btn-submit mt-5 lead">Send</button>
+
+                        <button class="slide_from_left mt-3 lead">Send</button>
                     </Container>
                 </Container>
             </Container>
@@ -95,12 +96,11 @@ const ContactUs = () => {
                         mapContainerStyle={containerStyle}
                         center={center}
                         zoom={10}
-                    >
-                        {/* Child components, such as markers, info windows, etc. */}
-                        <></>
-                    </GoogleMap>
+                    ></GoogleMap>
                 </LoadScript>
             </Container>
+
+            <Container></Container>
         </>
     );
 };
