@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "image": "https://lavi.dexignzone.com/xhtml/images/gallery/pic1.jpg",
+    "itemName": "Body Treatment",
+    "description": "Body treatments are similar to various types of facials and stimulate the skin to feel fresh and smooth. Body treatments are designed with a focus to exfoliate, cleanse, and moisturize the skin on the body as you perform the same on the skin of your face.",
+    "price": 100,
+    "category": "massage"
+  },
+  {
+    "id": 2,
+    "image": "https://lavi.dexignzone.com/xhtml/images/gallery/pic2.jpg",
+    "itemName": "AromaTherapy",
+    "description": "Aromatherapy is based on the usage of aromatic materials, including essential oils, and other aroma compounds, with claims for improving psychological or physical well-being.",
+    "price": 105,
+    "category": "massage"
+  },
+  {
+    "id": 3,
+    "image": "https://lavi.dexignzone.com/xhtml/images/gallery/pic3.jpg",
+    "itemName": "Beauty & Clinic Service",
+    "description": "We can create a soft subtle look that will make your eyes sparkle, with permanent eyeliner. Eyebrows are the focal point of the face, let us create the perfect brows for you to complement your facial features. Looking for the perfect look for lips? We can help you select the perfect lip color to enhance your natural lips or define you lip line, or simply make you lips appear fuller.",
+    "price": 50,
+    "category": "massage"
+  },
+  {
+    "id": 4,
+    "image": "https://lavi.dexignzone.com/xhtml/images/gallery/pic6.jpg",
+    "itemName": "Hair Massages",
+    "description": "Massage is the manipulation of the body's soft tissues. Massage techniques are commonly applied with hands, fingers, elbows, knees, forearms, feet, or a device. The purpose of massage is generally for the treatment of body stress or pain.",
+    "price": 70,
+    "category": "haircut"
+  },
+  {
+    "id": 5,
+    "image": "https://lavi.dexignzone.com/xhtml/images/gallery/pic4.jpg",
+    "itemName": "Hair Makeup",
+    "description": "Hair makeup is a temporary hair color that washes out in just one shampoo. Yes, you read that right. ... Even better, hair makeup colors can be mixed together to create your own custom shade, so the options are virtually endless.",
+    "price": 30,
+    "category": "haircut"
+  },
+  {
+    "id": 6,
+    "image": "https://lavi.dexignzone.com/xhtml/images/gallery/pic5.jpg",
+    "itemName": "Organic Kulk Service",
+    "description": "Hair makeup is a temporary hair color that washes out in just one shampoo. Yes, you read that right. ... Even better, hair makeup colors can be mixed together to create your own custom shade, so the options are virtually endless.",
+    "price": 50,
+    "category": "makeup"
+  },
+  {
+    "id": 7,
+    "image": "https://lavi.dexignzone.com/xhtml/images/gallery/pic7.jpg",
+    "itemName": "Lux Cosmetic",
+    "description": "From everyday natural glow, to sizzling night out drama, cosmetics have an amazing transformative power. Who do you want to be today.",
+    "price": 55,
+    "category": "makeup"
+  },
+  {
+    "id": 8,
+    "image": "https://lavi.dexignzone.com/xhtml/images/gallery/pic8.jpg",
+    "itemName": "Body Treatments",
+    "description": "Body treatments are similar to various types of facials and stimulate the skin to feel fresh and smooth. Body treatments are designed with a focus to exfoliate, cleanse, and moisturize the skin on the body as you perform the same on the skin of your face.",
+    "price": 65,
+    "category": "coloring"
+  },
+  {
+    "id": 9,
+    "image": "https://lavi.dexignzone.com/xhtml/images/gallery/pic2.jpg",
+    "itemName": "Hair Makeup",
+    "description": "Hair makeup is a temporary hair color that washes out in just one shampoo. Yes, you read that right. ... Even better, hair makeup colors can be mixed together to create your own custom shade, so the options are virtually endless.",
+    "price": 75,
+    "category": "makeup"
+  },
+  {
+    "id": 10,
+    "image": "https://lavi.dexignzone.com/xhtml/images/gallery/pic2.jpg",
+    "itemName": "Hair Makeup",
+    "description": "Hair makeup is a temporary hair color that washes out in just one shampoo. Yes, you read that right. ... Even better, hair makeup colors can be mixed together to create your own custom shade, so the options are virtually endless.",
+    "price": 45,
+    "category": "highlight"
+  },
+  {
+    "id": 11,
+    "image": "https://lavi.dexignzone.com/xhtml/images/gallery/pic15.jpg",
+    "itemName": "Aromatherapy",
+    "description": "Aromatherapy is based on the usage of aromatic materials, including essential oils, and other aroma compounds, with claims for improving psychological or physical well-being.",
+    "price": 58,
+    "category": "massage"
+  },
+  {
+    "id": 12,
+    "image": "https://lavi.dexignzone.com/xhtml/images/gallery/pic14.jpg",
+    "itemName": "Body Treatments",
+    "description": "Body treatments are similar to various types of facials and stimulate the skin to feel fresh and smooth. Body treatments are designed with a focus to exfoliate, cleanse, and moisturize the skin on the body as you perform the same on the skin of your face.",
+    "price": 25,
+    "category": "coloring"
+  },
+  {
+    "id": 13,
+    "image": "https://lavi.dexignzone.com/xhtml/images/gallery/pic13.jpg",
+    "itemName": "Lux Cosmetic",
+    "description": "Women who are tired of being bombarded with instructions on what they should look like and what they should do to look like that, liked our idea and that was the beginning of the success story of the brand for which we believe that can survive any market, especially smaller ones, only with satisfied regular customers who can contact the company at any time.",
+    "price": 75,
+    "category": "haircut"
+  },
+  {
+    "id": 14,
+    "image": "https://lavi.dexignzone.com/xhtml/images/gallery/pic8.jpg",
+    "itemName": "Beauty & Clinic Service",
+    "description": "Every women care about their skin. Only, the level of their concern about skin can vary. There are some people giving much attention to all rituals that are associated with facial skin care, from when he woke up in the morning to return to sleep at the end of the day. There are also some people who do not think too much about skin care, but more prioritizing sports or consumed nutrients.",
+    "price": 87,
+    "category": "coloring"
+  }
+]

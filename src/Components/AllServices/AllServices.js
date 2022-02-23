@@ -36,7 +36,7 @@ const AllServices = () => {
                         <h1
                             className="text-center mt-5 mb-5"
                             style={{
-                                fontFamily: "Courier",
+                                fontFamily: "'Montserrat', sans-serif",
                                 fontWeight: "bold",
                             }}
                         >
@@ -72,6 +72,7 @@ const AllServices = () => {
                                                 <img
                                                     src={service.image}
                                                     className="img-fluid"
+                                                    alt="service-img"
                                                     style={{
                                                         width: "7rem",
                                                         marginLeft: "auto",
@@ -112,17 +113,6 @@ const AllServices = () => {
                                                 </Card.Body>
                                             </Card>
                                         ))}
-                                        {/* <Button
-                                        variant="outlined"
-                                        color="error"
-                                        style={{
-                                            marginLeft: "45%",
-                                            marginBottom: "50px",
-                                        }}
-                                        onClick={handleExploreMore}
-                                    >
-                                        Explore More2
-                                    </Button> */}
                                     </div>
                                 ) : (
                                     <>
@@ -143,6 +133,7 @@ const AllServices = () => {
                                                     <img
                                                         src={t.image}
                                                         className="img-fluid"
+                                                        alt="service-img"
                                                         style={{
                                                             width: "7rem",
                                                             marginLeft: "auto",
@@ -205,14 +196,6 @@ const AllServices = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <Button
-                    variant="outlined"
-                    color="error"
-                    style={{ marginLeft: "45%", marginBottom: "50px" }}
-                    onClick={handleExploreMore}
-                >
-                    Explore More
-                </Button> */}
                 </Container>
             </Container>
             <Professional></Professional>
