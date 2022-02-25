@@ -19,6 +19,7 @@ import Button from "@mui/material/Button";
 import Prices from "./Components/Prices/Prices";
 import NewsBlogs from "./Components/News-Blogs/NewsBlogs";
 import TermsConditions from "./Components/TermsConditions/TermsConditions";
+import Registration from "./Components/Registration/Registration";
 
 function App() {
     return (
@@ -57,9 +58,11 @@ function App() {
 
                             <Button
                                 variant="contained"
-                                // style={{ fontFamily: "Courier" }}
+                                
                             >
-                                Log In
+                                <Link to="/registration" className="log-in">
+                                    Log In
+                                </Link>
                             </Button>
 
                             {/* <Button variant="outline-success">Log In</Button> */}
@@ -76,6 +79,7 @@ function App() {
                     <Route path="/price" element={<Prices />} />
                     <Route path="/newsblogs" element={<NewsBlogs />} />
                     <Route path="/terms" element={<TermsConditions />} />
+                    <Route path="/registration" element={<Registration />} />
                     {/* <Route path="" element={<ContactUs />} /> */}
                 </Routes>
             </BrowserRouter>

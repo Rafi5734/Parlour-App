@@ -1,23 +1,31 @@
 .navbar-main {
-    background-color: #fff;
-    opacity: 0.75;
+  background-color: #fff;
+  opacity: 0.75;
 }
 .icon-img {
-    width: 150px;
+  width: 150px;
 }
 .my-navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .links {
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: bold;
-    color: black;
-    font-family: "Exo", sans-serif;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: black;
+  font-family: "Exo", sans-serif;
 }
 
 .links:hover {
-    border-bottom: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.log-in {
+  color: white;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+.log-in:hover {
+  color: black;
 }
