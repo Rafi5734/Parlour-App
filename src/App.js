@@ -20,6 +20,7 @@ import Prices from "./Components/Prices/Prices";
 import NewsBlogs from "./Components/News-Blogs/NewsBlogs";
 import TermsConditions from "./Components/TermsConditions/TermsConditions";
 import Registration from "./Components/Registration/Registration";
+import Login from "./Components/Login/Login";
 
 function App() {
     return (
@@ -80,6 +81,7 @@ function App() {
                     <Route path="/newsblogs" element={<NewsBlogs />} />
                     <Route path="/terms" element={<TermsConditions />} />
                     <Route path="/registration" element={<Registration />} />
+                    <Route path="/login" element={<Login />} />
                     {/* <Route path="" element={<ContactUs />} /> */}
                 </Routes>
             </BrowserRouter>

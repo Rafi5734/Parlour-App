@@ -1,0 +1,16 @@
+.loginContainer {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid #000;
+}
+.login-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid #000;
+}
+.svg-form {
+  border: 1px solid #000;
+}
+.form {
+  border: 1px solid #000;
+}

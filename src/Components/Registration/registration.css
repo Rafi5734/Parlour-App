@@ -45,3 +45,13 @@
 .google-img {
   width: 40px;
 }
+.login-here {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.main-login-here {
+  position: relative;
+  bottom: 8px;
+}
