@@ -3,8 +3,32 @@ import React from "react";
 import "./registration.css";
 import GoogleImage from "../../Image/google.png";
 import { Link } from "react-router-dom";
+import authInitialize from "../Authentication/AuthInit";
+import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+authInitialize();
+
+const provider = new GoogleAuthProvider();
+
+
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 const Registration = () => {
+
+
+
+
+  const googleLoginButton = () => {
+
+    const auth = getAuth();
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        const user = result.user;
+      console.log(user);
+    })
+  }
+
+
+
+
   return (
     <div className="registration-main">
       <div className="registration-page">
@@ -43,7 +67,10 @@ const Registration = () => {
 
         <div className="login-here">
           <p>Already a member?</p>
-          <Link to="/login"> <span className="main-login-here ms-1">Login Here.</span></Link>
+          <Link to="/login">
+            {" "}
+            <span className="main-login-here ms-1">Login Here.</span>
+          </Link>
         </div>
 
         <div>
@@ -52,15 +79,14 @@ const Registration = () => {
             --------------------
           </p>
         </div>
-
-        <div className="google-sign-in mb-5">
+        <button className="main-btn-google" onClick={googleLoginButton}>
           <p className="lead">Sign In With Google</p>
           <img
             src={GoogleImage}
             alt="google-img"
             className="google-img ms-3"
           ></img>
-        </div>
+        </button>
       </div>
     </div>
   );

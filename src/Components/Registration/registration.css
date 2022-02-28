@@ -32,16 +32,6 @@
   color: white;
   font-size: 1.4rem;
 }
-.google-sign-in {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  border: 1px solid #f63e7b;
-  padding: 10px 40px 10px 40px;
-  border-radius: 30px;
-  cursor: pointer;
-}
 .google-img {
   width: 40px;
 }
@@ -54,4 +44,14 @@
 .main-login-here {
   position: relative;
   bottom: 8px;
+}
+.main-btn-google {
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid #f63e7b;
+  padding: 10px 40px 10px 40px;
+  border-radius: 30px;
 }
