@@ -16,7 +16,7 @@ const ContactForm = () => {
     console.log(watch("example"));
     return (
         <>
-            <div className="contact-main">
+            <div className="contact-main-section">
                 <h1 className="text-center fw-bold mb-5 contact-heading">
                     Let us handle your project, professionally.
                 </h1>

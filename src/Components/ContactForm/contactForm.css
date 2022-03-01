@@ -1,7 +1,7 @@
-.contact-main {
+.contact-main-section {
     width: 100%;
-    height: 120vh;
-    background-color: #fff8f5;
+    height: 90vh;
+    background-image: url("https://images.pexels.com/photos/1115128/pexels-photo-1115128.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
 .form-container {
     width: 100%;
@@ -9,7 +9,8 @@
 .contact-heading {
     position: relative;
     top: 100px;
-    color: #fff;
+    color: black;
+    margin-top: 100px;
 }
 .btn-div {
     margin-bottom: 50px;

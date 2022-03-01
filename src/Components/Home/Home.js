@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import {  Container  } from "react-bootstrap";
 import "./home.css";
 import HeaderImage from "../Images/header-img.png";
 import Button from "@mui/material/Button";
@@ -45,6 +45,7 @@ const Home = () => {
                                 <img
                                     src={HeaderImage}
                                     className="img-fluid"
+                                    alt="header-img"
                                 ></img>
                             </div>
                         </Container>

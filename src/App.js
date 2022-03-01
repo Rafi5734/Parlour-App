@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./Components/Home/Home";
@@ -7,14 +7,10 @@ import Team from "./Components/Team/Team";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import {
     Container,
-    Form,
-    FormControl,
     Nav,
-    NavDropdown,
     Navbar,
 } from "react-bootstrap";
 import Icon from "./Components/Images/Group 33092.png";
-import SendIcon from "@mui/icons-material/Send";
 import Button from "@mui/material/Button";
 import Prices from "./Components/Prices/Prices";
 import NewsBlogs from "./Components/News-Blogs/NewsBlogs";
@@ -30,7 +26,7 @@ function App() {
                     <Container>
                         <Navbar.Brand href="#">
                             <Link to="/home">
-                                <img src={Icon} className="icon-img"></img>
+                                <img src={Icon} className="icon-img" alt="icon-img"></img>
                             </Link>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />

@@ -10,7 +10,7 @@ const Professional = () => {
             <Container fluid className="pro-main">
                 <Container className="the-pro">
                     <div>
-                        <img src={faceWashing} className="img-fluid"></img>
+                        <img src={faceWashing} className="img-fluid" alt="faceWash-img"></img>
                     </div>
 
                     <div className="pro-details">
