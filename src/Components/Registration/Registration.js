@@ -27,12 +27,10 @@ const Registration = () => {
   }
 
 
-
-
   return (
     <div className="registration-main">
       <div className="registration-page">
-        <h1 className="text-center mt-5  mb-5 fw-normal">Create An Account</h1>
+        <h1 className="text-center mt-5  mb-5 fw-normal contact-main-header">Create An Account</h1>
         <TextField
           id="outlined-basic"
           label="Full-Name"

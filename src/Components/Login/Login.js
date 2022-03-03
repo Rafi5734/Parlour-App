@@ -11,8 +11,8 @@ const Login = () => {
       <Container>
         <div className="login-main">
           <div className="form">
-            <h1 className="text-center mb-5">Welcome Back</h1>
-            <h1 className="text-center mb-5">LOGIN</h1>
+            <h3 className="text-center mb-5">Welcome Back</h3>
+            <h1 className="text-center mb-5">Sign In Into Your Account</h1>
             <TextField id="outlined-basic" sx={{ width: "80%" }} label="Email" variant="outlined" type="email" />
             <TextField id="outlined-basic" sx={{ mt: "30px", width: "80%" }} label="Password" variant="outlined" type="password" />
             <div className="float-start mt-3 forgot"><Checkbox {...label} /><span>Remember Me?</span>

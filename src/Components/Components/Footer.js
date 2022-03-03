@@ -7,10 +7,9 @@ const Footer = () => {
     return (
         <div
             style={{
-                backgroundColor: "#f63e7b",
-                width: "100%",
-                height: "40vh",
+                
             }}
+            className="main-footer"
         >
             <Container
                 style={{
@@ -23,7 +22,7 @@ const Footer = () => {
             >
                 {/* 1 */}
                 <div className="organized-logo">
-                    <img src={Logo}></img>
+                    <img src={Logo} alt="logo-img"></img>
                     <div>
                         <div className="social-icons">
                             <i className="fab fa-facebook-square"></i>

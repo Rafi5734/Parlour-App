@@ -15,6 +15,7 @@ const Team = () => {
                             <img
                                 src="https://lavi.dexignzone.com/xhtml/images/team/pic1.jpg"
                                 className="w-75 member-image"
+                                alt="member-img"
                             ></img>
                             <h1 className="team-name">Joshua Weston</h1>
                             <p className="lead">MASSEUR</p>
@@ -28,8 +29,9 @@ const Team = () => {
                             <img
                                 src="https://lavi.dexignzone.com/xhtml/images/team/pic2.jpg"
                                 className="w-75 member-image"
+                                alt="member-img"
                             ></img>
-                            <h1 className="team-name">Hackson Willingham</h1>
+                            <h1 className="team-name text-nowrap">Hackson Willingham</h1>
                             <p className="lead">HEAD MASSAGE</p>
                             <div className="member-icons">
                                 <i class="fab fa-facebook-f icon-media"></i>
@@ -41,6 +43,7 @@ const Team = () => {
                             <img
                                 src="https://lavi.dexignzone.com/xhtml/images/team/pic3.jpg"
                                 className="w-75 member-image"
+                                alt="member-img"
                             ></img>
                             <h1 className="team-name">Henry Hunter</h1>
                             <p className="lead">MASSEUR</p>
@@ -54,6 +57,7 @@ const Team = () => {
                             <img
                                 src="https://lavi.dexignzone.com/xhtml/images/team/pic4.jpg"
                                 className="w-75 member-image"
+                                alt="member-img"
                             ></img>
                             <h1 className="team-name">James Logan</h1>
                             <p className="lead">HEAD MASSAGE</p>
@@ -67,6 +71,7 @@ const Team = () => {
                             <img
                                 src="https://lavi.dexignzone.com/xhtml/images/team/pic5.jpg"
                                 className="w-75 member-image"
+                                alt="member-img"
                             ></img>
                             <h1 className="team-name">William Logan</h1>
                             <p className="lead">BODY MASSAGE</p>
@@ -80,6 +85,7 @@ const Team = () => {
                             <img
                                 src="https://lavi.dexignzone.com/xhtml/images/team/pic6.jpg"
                                 className="w-75 member-image"
+                                alt="member-img"
                             ></img>
                             <h1 className="team-name">Oscar Weston</h1>
                             <p className="lead">FACE MASSAGE</p>

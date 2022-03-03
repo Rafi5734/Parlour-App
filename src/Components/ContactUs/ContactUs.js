@@ -1,19 +1,9 @@
 import React from "react";
 import { Container, Form } from "react-bootstrap";
 import "./contactUs.css";
-import { GoogleMap, LoadScript } from "@react-google-maps/api";
-import Footer from "../Components/Footer";
-const containerStyle = {
-  width: "100%",
-  height: "400px",
-  marginTop: "50px",
-  marginBottom: "50px",
-};
 
-const center = {
-  lat: -3.745,
-  lng: -38.523,
-};
+import Footer from "../Components/Footer";
+
 const ContactUs = () => {
   return (
     <>
@@ -102,7 +92,7 @@ const ContactUs = () => {
                   title="google-map"
         ></iframe>
       </Container>
-      <Container fluid className="center">
+      <Container fluid className="center mt-5">
         <Container>
           <div className="main-center">
             <div>

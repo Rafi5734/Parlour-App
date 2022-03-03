@@ -90,3 +90,12 @@ button.slide_from_left::after {
     width: 100%;
     height: 50vh;
 }
+
+@media only screen and (max-width: 1366px) {
+    .center {
+    background-color: #faf9f5;
+    width: 100%;
+    height: 70vh;
+    padding: 60px;
+}
+}

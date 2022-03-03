@@ -1,3 +1,8 @@
+.main-footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #f63e7b;
+}
 .mother-footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -12,4 +17,12 @@
 .link {
     text-decoration: none;
     color: #000;
+}
+
+@media screen and (max-width: 1366px){
+    .main-footer{
+    width: 100%;
+    height: 50vh;
+    background-color: #f63e7b;
+}
 }

@@ -89,6 +89,13 @@
     font-size: 18px;
 }
 
+@media only screen and (max-width: 1366px) {
+    .pricing-second {
+    width: 100%;
+    height: 120vh;
+}
+}
+
 @media only screen and (max-width: 600px) {
     .columns {
         width: 100%;

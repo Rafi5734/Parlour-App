@@ -2,6 +2,7 @@ import React from "react";
 import { Badge, Container } from "react-bootstrap";
 import "./prices.css";
 import Footer from "../Components/Footer";
+import { Link } from "react-router-dom";
 const Prices = () => {
     return (
         <>
@@ -41,9 +42,9 @@ const Prices = () => {
                                     Body Masssage
                                 </li>
                                 <li className="grey lead">
-                                    <a href="#" className="button">
-                                        Sign Up
-                                    </a>
+                                    <Link to="/registration" className="button">
+                                        Get Services
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -76,9 +77,9 @@ const Prices = () => {
                                     Body Masssage
                                 </li>
                                 <li className="grey lead">
-                                    <a href="#" className="button">
-                                        Sign Up
-                                    </a>
+                                    <Link to="/registration" className="button">
+                                        Get Services
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -108,9 +109,9 @@ const Prices = () => {
                                     Body Masssage
                                 </li>
                                 <li className="grey lead">
-                                    <a href="#" className="button">
-                                        Sign Up
-                                    </a>
+                                    <Link to="/registration" className="button">
+                                        Get Services
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
